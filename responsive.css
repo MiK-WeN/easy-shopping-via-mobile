@@ -1,0 +1,83 @@
+@media screen and (min-width: 668px) and (max-width: 1023px) {
+    /*----------------LEFT----------------*/
+    .wrapper .left-container .l-content p {
+        font-size: 2.5vw;
+    }
+
+    .wrapper .left-container .l-content button {
+        font-size: 3vw;
+    }
+
+/*----------------RIGHT----------------*/
+    .wrapper .right-container .r-content img {
+        width: 40%;
+    }
+}
+
+/*-------------425px-------------*/
+@media screen and (min-width: 425px) {
+    .wrapper .right-container .r-content img {
+        width: 60%;
+    }
+}
+
+/*-------------768px-------------*/
+@media screen and (min-width: 768px) {
+    .wrapper .right-container .r-content img {
+        width: 35%;
+    }
+
+    .wrapper .left-container .l-content h1 {
+        font-size: 5vw;
+    }
+
+    .wrapper .left-container .l-content button {
+        width: 50%;
+        height: 15%;
+    }
+}
+
+/*-------------1024px-------------*/
+@media screen and  (min-width: 1024px) {
+    .wrapper {
+        display: flex;
+    }
+
+    /*-----------LEFT-------------*/
+    .wrapper .left-container {
+        height: 100%;
+        width: 60%;
+    }
+
+    .wrapper .left-container .l-content {
+        gap: 2.3em;
+    }
+
+    .wrapper .left-container .l-content h1 {
+        font-size: 4.5vw;
+    }
+
+    .wrapper .left-container .l-content p {
+        font-size: 2.3vw;
+    }
+
+    .wrapper .left-container .l-content button {
+        font-size: 3vw;
+        width: 75%;
+    }
+
+    /*-----------RIGHT-------------*/
+    .wrapper .right-container {
+        height: 100%;
+        width: 40%;
+    }
+
+    .wrapper .right-container header {
+        display: flex;
+    }
+
+    .wrapper .right-container .r-content img {
+        width: 80%;
+    }
+
+}

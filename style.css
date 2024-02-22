@@ -1,0 +1,105 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: darkgray;
+}
+
+/*-----------left/top----------------*/
+.wrapper .left-container {
+    width: 100%;
+    height: 50%;
+    background-color: #2a2a2a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .left-container .l-content {
+    width: 80%;
+    height: 85%;
+    background-color: #282828;
+    box-shadow: 0px 0px 3px #9499EA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3em;
+    border-radius: 3px;
+}
+
+.wrapper .left-container .l-content h1 {
+    text-align: center;
+    font-size: 7vw;
+    color: #b1b1bd;;
+}
+
+.wrapper .left-container .l-content p {
+    text-align: center;
+    font-size: 3.8vw;
+    color: #9797a4;
+    margin: 0em 1em 0em 1em;
+}
+
+.wrapper .left-container .l-content button {
+    width: 65%;
+    height: 12%;
+    border: none;
+    border-radius: 2px;
+    font-size: 5vw;
+    background-color: #9499EA;
+    color: #282828;
+    cursor: pointer;
+}
+
+.wrapper .left-container .l-content button:hover {
+    filter: brightness(90%);
+}
+
+.wrapper .left-container .l-content button:active {
+    transform: scale(0.98);
+}
+
+/*-----------right/bottom----------------*/
+.wrapper .right-container {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+}
+
+.wrapper .right-container header {
+    width: 100%;
+    height: 10%;
+    background-color: #9499EA;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    gap: 2.2em;
+    font-size: 2vw;
+}
+
+.wrapper .right-container header a {
+    color: #282828;
+    transition: 0.2s ease;
+}
+
+.wrapper .right-container header a:hover {
+    color: #e1e1e1;
+}
+
+.wrapper .right-container .r-content {
+    width: 85%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .right-container .r-content img {
+    width: 70%;
+    filter: brightness(87%);
+}
